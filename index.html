@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Práctico 1 - Maquetando con Flexbox</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <header class="encabezado">
+    <a class="logo" href="#">Flex<span>Box</span></a>
+
+    <nav class="menu">
+      <a href="#inicio">Inicio</a>
+      <a href="#galeria">Galería</a>
+      <a href="#sobre">Sobre el práctico</a>
+    </nav>
+  </header>
+
+
+  <main>
+    <section class="portada" id="inicio">
+      <div class="portada-contenido">
+        <p class="etiqueta">PRÁCTICO 1</p>
+        <h1>Maquetando con <span>Flexbox</span></h1>
+        <p class="descripcion">
+          Una página de ejemplo para practicar la alineación y distribución
+          de elementos utilizando CSS Flexbox.
+        </p>
+        <a class="boton" href="#galeria">Ver galería</a>
+      </div>
+    </section>
+
+    
+    <section class="seccion-galeria" id="galeria">
+      <div class="titulo-seccion">
+        <p class="etiqueta">IMÁGENES</p>
+        <h2>Galería de ejemplo</h2>
+        <p>Tarjetas organizadas con Flexbox.</p>
+      </div>
+
+      <div class="galeria">
+        <article class="tarjeta">
+          <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80" alt="Paisaje de montaña">
+          <div class="tarjeta-texto">
+            <h3>Naturaleza</h3>
+            <p>Paisajes y lugares al aire libre.</p>
+          </div>
+        </article>
+
+        <article class="tarjeta">
+          <img src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=900&q=80" alt="Cielo al atardecer">
+          <div class="tarjeta-texto">
+            <h3>Atardeceres</h3>
+            <p>Colores y momentos del día.</p>
+          </div>
+        </article>
+
+        <article class="tarjeta">
+          <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=900&q=80" alt="Lago entre montañas">
+          <div class="tarjeta-texto">
+            <h3>Aventuras</h3>
+            <p>Lugares para conocer y explorar.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+
+    <section class="sobre" id="sobre">
+      <div class="sobre-caja">
+        <h2>¿Qué es Flexbox?</h2>
+        <p>
+          Flexbox es un sistema de CSS que permite ordenar, alinear y distribuir
+          elementos dentro de un contenedor de forma flexible.
+        </p>
+      </div>
+
+      <div class="sobre-caja">
+        <h2>Propiedades utilizadas</h2>
+        <p>
+          Se utilizaron display: flex, justify-content, align-items, gap y
+          flex-wrap para organizar los distintos sectores de la página.
+        </p>
+      </div>
+    </section>
+  </main>
+
+
+  <footer class="pie">
+    <p>Práctico 1 · Maquetando con Flexbox</p>
+  </footer>
+
+</body>
+</html>
